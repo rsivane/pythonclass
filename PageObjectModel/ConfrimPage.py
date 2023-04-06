@@ -7,6 +7,6 @@ from PageObjectModel import HomePage
 class ConfrimPage:
     shop = (By.XPATH, "//button[@class='btn btn-success']")
     def __init__(self, driver):
-        self.driver = driver
+        
 
 
